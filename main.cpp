@@ -12,7 +12,8 @@ void grab_workspace(std::string args){
     const auto workspace_to_change_to = g_pCompositor->getWorkspaceByString(args);
 
     if (workspace_to_change_to == nullptr) {
-        //Debug::log(ERR, "Error in changeworkspace, invalid value");
+        // Make a new workspace
+        HyprlandAPI::invokeHyprctlCommand("dispatch", "workspace " + args);
         return;
     }
 
