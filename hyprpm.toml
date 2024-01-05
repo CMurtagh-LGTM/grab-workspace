@@ -1,0 +1,8 @@
+[repository]
+name = "grab-workspace"
+authors = ["CMurtagh-LGTM"]
+
+[grab-workspace]
+description = "Grabs a workspace"
+output = "grab-workspace.so"
+build = ["make"]

@@ -51,6 +51,6 @@ APICALL EXPORT PLUGIN_DESCRIPTION_INFO PLUGIN_INIT(HANDLE handle) {
 
     HyprlandAPI::addDispatcher(PHANDLE, "grab-workspace", grab_workspace);
 
-    return {"grab-workspace", "Grabs a workspace", "CMurtagh-LGTM", "0.1"};
+    return {"grab-workspace", "Grabs a workspace", "CMurtagh-LGTM", "0.1.1"};
 }
 
