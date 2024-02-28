@@ -1,3 +1,6 @@
+Archived due to:
+https://github.com/hyprwm/Hyprland/pull/4439
+
 # grab-workspace
 A plugin to grab a workspace and display it on the current monitor.
 If the workspace is already displayed on another monitor it will instead swap the workspaces.
